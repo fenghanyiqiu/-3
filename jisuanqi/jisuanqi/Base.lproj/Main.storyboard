@@ -54,7 +54,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <state key="normal" title="计算"/>
                                 <connections>
-                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVU-Uz-vIp"/>
+                                    <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eXG-sC-ikC"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="结果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxC-w8-TOe">
@@ -70,9 +70,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="sum01:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Fdh-N3-V1f"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bw5-Yk-XtV">
                                 <rect key="frame" x="108" y="369" width="234" height="30"/>
@@ -80,18 +77,13 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="sum02:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ct6-yy-O74"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y1f-gZ-sOa">
                                 <rect key="frame" x="108" y="245" width="76" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="operational:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="R67-Ue-T9N"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sjs-Oa-Wwj">
                                 <rect key="frame" x="108" y="296" width="50" height="50"/>
@@ -101,7 +93,7 @@
                                     <color key="titleColor" red="0.91380929946899414" green="0.49267041683197021" blue="0.31381016969680786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cMR-XC-lnR"/>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7fg-vu-b4T"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LaK-GU-FsV">
@@ -112,7 +104,7 @@
                                     <color key="titleColor" red="0.91261750459671021" green="0.5946880578994751" blue="0.29960870742797852" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="minus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d1j-Ti-HB2"/>
+                                    <action selector="sub:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Or3-Ns-m82"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VvS-ZD-Oqc">
@@ -123,7 +115,7 @@
                                     <color key="titleColor" red="0.98648804426193237" green="0.73444622755050659" blue="0.018853392452001572" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="veJ-Ai-GAb"/>
+                                    <action selector="cheng:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ukr-PZ-ekl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PW-ye-k4R">
@@ -134,7 +126,7 @@
                                     <color key="titleColor" red="0.98648804426193237" green="0.73444622755050659" blue="0.018853392452001572" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qn2-iP-Wmw"/>
+                                    <action selector="chu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UnT-Ls-OUd"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="45h-sH-vMK">
@@ -143,19 +135,16 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="fruit:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="9xI-5s-Qgn"/>
-                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.54196310043334961" green="0.83489972352981567" blue="0.91492044925689697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="fruit" destination="45h-sH-vMK" id="RK5-O1-d87"/>
-                        <outlet property="num01" destination="fk8-rt-JLe" id="PSM-6j-m55"/>
-                        <outlet property="num02" destination="bw5-Yk-XtV" id="WKk-qg-snX"/>
-                        <outlet property="operational" destination="y1f-gZ-sOa" id="UqP-Ay-ZIY"/>
+                        <outlet property="fruit" destination="45h-sH-vMK" id="7iZ-Jh-ogJ"/>
+                        <outlet property="opera" destination="y1f-gZ-sOa" id="Nhz-Q2-Jzs"/>
+                        <outlet property="sum01" destination="fk8-rt-JLe" id="GYe-Qo-c8P"/>
+                        <outlet property="sum02" destination="bw5-Yk-XtV" id="0BO-mm-ujD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
